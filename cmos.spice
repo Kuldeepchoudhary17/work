@@ -1,0 +1,7 @@
+* SPICE3 file created from cmos.ext - technology: sky130A
+
+.subckt cmos vdd gnd vout vin
+X0 vout vin gnd gnd sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=2.6e+06u l=1e+06u
+X1 vout vin vdd vdd sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=5e+06u l=1e+06u
+C0 vdd gnd 4.82fF
+.ends

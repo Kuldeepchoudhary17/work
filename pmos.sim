@@ -1,0 +1,7 @@
+| units: 1e+06 tech: sky130A format: MIT
+x a_200_n518# a_0_n500# a_300_n500# w_n18_n518# l=100 w=500 x=200 y=-499 sky130_fd_pr__pfet_01v8
+R a_300_n500# 525
+R a_0_n500# 525
+R a_200_n518# 258
+C w_n18_n518# GND 3.45
+R w_n18_n518# 1700

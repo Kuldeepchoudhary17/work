@@ -1,0 +1,4 @@
+* SPICE3 file created from pmos.ext - technology: sky130A
+
+X0 a_300_n500# a_200_n518# a_0_n500# w_n18_n518# sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=5e+06u l=1e+06u
+C0 w_n18_n518# SUB 3.45fF

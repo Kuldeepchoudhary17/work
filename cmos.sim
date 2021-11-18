@@ -1,0 +1,8 @@
+| units: 1e+06 tech: sky130A format: MIT
+x vin gnd vout gnd l=100 w=260 x=218 y=-459 sky130_fd_pr__nfet_01v8
+x vin vdd vout vdd l=100 w=500 x=218 y=19 sky130_fd_pr__pfet_01v8
+C vdd GND 4.82
+R vdd 2929
+R vout 705
+R gnd 783
+R vin 486

@@ -1,0 +1,62 @@
+magic
+tech sky130A
+timestamp 1637230906
+<< nwell >>
+rect 0 536 536 640
+<< psubdiff >>
+rect 28 -520 208 -508
+rect 28 -560 40 -520
+rect 196 -560 208 -520
+rect 28 -572 208 -560
+<< nsubdiff >>
+rect 23 610 203 622
+rect 23 563 35 610
+rect 191 563 203 610
+rect 23 551 203 563
+<< psubdiffcont >>
+rect 40 -560 196 -520
+<< nsubdiffcont >>
+rect 35 563 191 610
+<< poly >>
+rect 218 -10 318 0
+rect 18 -30 318 -10
+rect 18 -152 38 -30
+rect 198 -152 318 -30
+rect 18 -172 318 -152
+rect 218 -182 318 -172
+<< polycont >>
+rect 38 -152 198 -30
+<< locali >>
+rect 18 610 518 630
+rect 18 563 35 610
+rect 191 563 518 610
+rect 18 546 518 563
+rect 28 508 208 546
+rect 28 -30 208 -20
+rect 28 -152 38 -30
+rect 198 -152 208 -30
+rect 28 -162 208 -152
+rect 328 -210 508 28
+rect 28 -498 208 -450
+rect 18 -520 518 -498
+rect 18 -560 40 -520
+rect 196 -560 518 -520
+rect 18 -582 518 -560
+use nmos  nmos_0
+timestamp 1637227170
+transform 1 0 18 0 1 -200
+box 0 -278 500 18
+use pmos  pmos_0
+timestamp 1637226432
+transform 1 0 18 0 1 518
+box -18 -518 518 18
+<< labels >>
+rlabel locali 254 581 254 581 1 vdd
+port 1 n
+rlabel locali 251 -544 251 -544 1 gnd
+port 2 n
+rlabel locali 450 -90 450 -90 1 vout
+port 3 n
+rlabel locali 31 -94 31 -94 1 vin
+port 4 n
+<< end >>
